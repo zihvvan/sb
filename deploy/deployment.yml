@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myhttpd-dep
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: myhttpd
